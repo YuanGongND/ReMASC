@@ -6,6 +6,12 @@ Sample Set (Available Soon)
 
 Core Set (Expect to be available before 2019)
 
+**Authors**:  
+
+Yuan Gong, Jacob Huber, Mitchell MacKnight, Jian Yang, Christian Poellabauer
+
+Computer Science and Engineering, University of Notre Dame, IN 46556, USA
+
 **Abstract:**
 We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
 
