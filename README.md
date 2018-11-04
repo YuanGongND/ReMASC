@@ -1,6 +1,7 @@
 # ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems
 
 **Download:**
+
 Sample Set (Available Soon)
 
 Core Set (Expect to be available before 2019)
@@ -8,7 +9,9 @@ Core Set (Expect to be available before 2019)
 **Abstract:**
 We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
 
-# ReMASC DATA COLLECTION
+
+## Definitions and Data Collection Strategy
+
 ![enter image description here](https://yuangongorg.files.wordpress.com/2018/11/figure12.png?w=400)
 
 **Figure 1**. An illustration of legitimate usage of a VCS (upper figure) and a replay attack (lower figure).
@@ -17,9 +20,9 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 **Figure 2**. The recording environments and conditions.
 
-## Definitions and Data Collection Strategy
+A typical VCS replay attack is illustrated in the lower part of Figure 1. An attacker first needs to prepare a **replay source recording** (i.e., circled 2 in Figure 1), which can be done by either recording a speaker (using a source recorder) or by performing speech synthesis. The attacker can then replay it using a replay device and the **replayed recording** (i.e., circled 3 in Figure 1) is captured by the VCS device. In contrast, a legitimate usage scenario is illustrated in the upper part of Figure 1, where a **genuine recording** (i.e., circled 1 in Figure 1) is directly captured by the VCS device. A defense task is then to build a model that is able to **distinguish genuine recordings from replayed recordings**. 
 
-A typical VCS replay attack is illustrated in the lower part of Figure 1. An attacker first needs to prepare a **replay source recording** (i.e., circled 2 in Figure 1), which can be done by either recording a speaker (using a source recorder) or by performing speech synthesis. The attacker can then replay it using a replay device and the **replayed recording** (i.e., circled 3 in Figure 1) is captured by the VCS device. In contrast, a legitimate usage scenario is illustrated in the upper part of Figure 1, where a **genuine recording** (i.e., circled 1 in Figure 1) is directly captured by the VCS device. A defense task is then to build a model that is able to **distinguish genuine recordings from replayed recordings**. As shown in Figure 2, in our data collection, we ask the subject to hold the source recorder at a short distance when speaking into the microphone arrays (which emulates the VCS device). When the subject speaks the voice command, both the source recorder and the microphone array record simultaneously. We define the recording captured by the microphone array as the **genuine recording**, and the recording captured by the source recorder as the **replay source recording**. Then, we play the replay source recording multiple times in different settings into the microphone array again, and refer to the recording captured by the microphone array as the **replayed recording**. The ReMASC data set provides all three types of recording. We also emulate  situations where the attacker uses speech synthesis to generate replay source recordings (i.e., there is no genuine recording).
+As shown in Figure 2, in our data collection, we ask the subject to hold the source recorder at a short distance when speaking into the microphone arrays (which emulates the VCS device). When the subject speaks the voice command, both the source recorder and the microphone array record simultaneously. We define the recording captured by the microphone array as the **genuine recording**, and the recording captured by the source recorder as the **replay source recording**. Then, we play the replay source recording multiple times in different settings into the microphone array again, and refer to the recording captured by the microphone array as the **replayed recording**. The ReMASC data set provides all three types of recording. We also emulate  situations where the attacker uses speech synthesis to generate replay source recordings (i.e., there is no genuine recording).
 
 ## Text Materials and Recording Subjects
 
