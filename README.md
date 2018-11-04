@@ -39,7 +39,7 @@ A total of 132 voice commands are used as the recording text material. Among the
 
 **Figure 3**. Microphone arrays used in the data collection (microphones are shown with the rectangles and a white arrow indicates the direction of the microphone array during data collection).
 
-![enter image description here](https://yuangongorg.files.wordpress.com/2018/11/12.png?w=400)
+![enter image description here](https://yuangongorg.files.wordpress.com/2018/11/table12.png?w=400)
 
 **Table 1**. Microphone array settings.
 
