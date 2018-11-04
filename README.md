@@ -39,9 +39,9 @@ A total of 132 voice commands are used as the recording text material. Among the
 
 **Figure 3**. Microphone arrays used in the data collection (microphones are shown with the rectangles and a white arrow indicates the direction of the microphone array during data collection).
 
-![enter image description here](https://yuangongorg.files.wordpress.com/2018/11/table12.png?w=400)
+![enter image description here](https://yuangongorg.files.wordpress.com/2018/11/12.png?w=400)
 
-**Table 1**. Microphone array settings
+**Table 1**. Microphone array settings.
 
 Due to privacy concerns, off-the-shelf VCS products such as Amazon Echo or Google Home do not allow developers toaccess the raw audio.  Therefore, we use the following VCS development kits in our work:  A) Amlogic A113X1 (4-mic triangle or 6-mic circular array);  B) Respeaker 4-mic lineararray; C) Respeaker Core V2 (6-mic circular array); and D) Google AIY Voice Kit (2-mic linear array).  As illustrated in Figure 3, in all experiments, we mount the four microphonearrays on a stand and for all recording devices,  we use theAdvanced Linux Sound Architecture (ALSA) to collect multi-channel waveform files.  We use the highest possible record-ing quality for each kit (summarized in Table 1).   Practical VCSs might use lower sampling rates and bit depths to lowerthe computational and network transmission overheads.
 
