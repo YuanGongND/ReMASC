@@ -6,6 +6,8 @@ Sample Set (Available Soon)
 
 Core Set (Expect to be available before 2019)
 
+Please join our \[[mail list](https://goo.gl/forms/jgKTinSVyE7q75ch1)] to receive update notifications.
+
 **Authors**:  
 
 Yuan Gong, Jacob Huber, Mitchell MacKnight, Jian Yang, Christian Poellabauer
