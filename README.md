@@ -14,6 +14,8 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 ## Downloads
 
+**Please fill out your information and sign the user agreement \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] to get access to the data.**
+
 **Sample Set** (available)
 
 A mini set consists of 20 samples for initial evaluation. You can download it \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] without signing the agreement form.
@@ -30,7 +32,7 @@ A large-scale dataset (~30,000 samples) covering all recording conditions. This 
 
 We reserve the rest of the data as an additional evaluation set for future defense model comparison. This set will be released in the future.
 
-**Please fill out your information and sign the user agreement \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] to get access to the data.**
+
 
 ## Definitions and Data Collection Strategy
 
