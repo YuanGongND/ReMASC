@@ -14,7 +14,7 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 ## Downloads
 
-**Please fill out your information and sign the user agreement \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] to get access to the data.**
+**Please fill out your information and sign the user agreement \[[here](https://forms.gle/B9MNxu6fcZvKTVUP6)] to get access to the data.**
 
 **Sample Set** (available)
 
