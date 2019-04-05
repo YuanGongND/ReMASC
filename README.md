@@ -9,6 +9,9 @@ Computer Science and Engineering, University of Notre Dame, IN 46556, USA
 **Paper**:  
 Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*", arXiv preprint, April 2019. 
 
+**Abstract:**
+We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
+
 ## Downloads
 
 **Sample Set** (available)
@@ -19,7 +22,7 @@ A mini set consists of 20 samples for initial evaluation. You can download it \[
 
 A small-scale but representative dataset consists of ~2,300 samples recorded in a various recording conditions. This set can be used for quick evaluation of the performance of existing anti-spoofing models (e.g., models trained on RedDots Replayed dataset) in the realistic settings of the ReMASC dataset.
 
-**Core Set ** (available, 21.7 GB)
+**Core Set** (available, 21.7 GB)
 
 A large-scale dataset (~30,000 samples) covering all recording conditions. This set allows you to build, validate, and evaluate the defense model as well as analyze the impact of factors such as the type of playback device and microphone. This set is disjoint with the Quick Evaluation Set.
 
@@ -28,11 +31,6 @@ A large-scale dataset (~30,000 samples) covering all recording conditions. This 
 We reserve the rest of the data as an additional evaluation set for future defense model comparison. This set will be released in the future.
 
 **Please fill out your information and sign the user agreement \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] to get access to the data.**
-
-------------
-**Abstract:**
-We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
-
 
 ## Definitions and Data Collection Strategy
 
