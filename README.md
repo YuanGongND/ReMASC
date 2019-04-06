@@ -14,17 +14,17 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 ## Downloads
 
-**Please fill out your information and sign the user agreement \[[here](https://forms.gle/B9MNxu6fcZvKTVUP6)] to get access to the data.**
+**Please fill out your information and sign the user agreement \[[here](https://drive.google.com/a/nd.edu/file/d/1uxqtYsVB-Nw49ywy9ks5UvN_pHAtrVmV/view?usp=sharing)] to get access to the data.**
 
-**Sample Set** (available)
+**Sample Set** (available, ~10MB)
 
 A mini set consists of 20 samples for initial evaluation. You can download it \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] without signing the agreement form.
 
-**Quick Evaluation Set** (available, 1,8 GB)
+**Quick Evaluation Set** (available, 1,8GB)
 
 A small-scale but representative dataset consists of ~2,300 samples recorded in a various recording conditions. This set can be used for quick evaluation of the performance of existing anti-spoofing models (e.g., models trained on RedDots Replayed dataset) in the realistic settings of the ReMASC dataset.
 
-**Core Set** (available, 21.7 GB)
+**Core Set** (available, 21.7GB)
 
 A large-scale dataset (~30,000 samples) covering all recording conditions. This set allows you to build, validate, and evaluate the defense model as well as analyze the impact of factors such as the type of playback device and microphone. This set is disjoint with the Quick Evaluation Set.
 
