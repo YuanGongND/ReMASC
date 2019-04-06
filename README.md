@@ -14,11 +14,11 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 ## Downloads
 
-**Please fill out your information and sign the user agreement \[[here](https://drive.google.com/a/nd.edu/file/d/1uxqtYsVB-Nw49ywy9ks5UvN_pHAtrVmV/view?usp=sharing)] to get access to the data.**
+**Please fill out your information and sign the user agreement \[[here](https://forms.gle/adG2Nx1n1sPFv99y6)] to get access to the data.**
 
 **Sample Set** (available, ~10MB)
 
-A mini set consists of 16 samples for initial evaluation. You can download it \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] without signing the agreement form.
+A mini set consists of 16 samples for initial evaluation. You can download it \[**[here]**(https://drive.google.com/a/nd.edu/file/d/1uxqtYsVB-Nw49ywy9ks5UvN_pHAtrVmV/view?usp=sharing)] without signing the agreement form.
 
 **Quick Evaluation Set** (available, 1,8GB)
 
