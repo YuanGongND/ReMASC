@@ -18,7 +18,7 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 **Sample Set** (available, ~10MB)
 
-A mini set consists of 20 samples for initial evaluation. You can download it \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] without signing the agreement form.
+A mini set consists of 16 samples for initial evaluation. You can download it \[[here](https://goo.gl/forms/jgKTinSVyE7q75ch1)] without signing the agreement form.
 
 **Quick Evaluation Set** (available, 1,8GB)
 
