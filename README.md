@@ -20,7 +20,7 @@ We introduce a new database of voice recordings with the goal of supporting rese
 
 A mini set consists of 16 samples for initial evaluation. You can download it **\[[here](https://drive.google.com/a/nd.edu/file/d/1uxqtYsVB-Nw49ywy9ks5UvN_pHAtrVmV/view?usp=sharing)]** without signing the agreement form.
 
-**Quick Evaluation Set** (available, 1,8GB)
+**Quick Evaluation Set** (available, 1.8GB)
 
 A small-scale but representative dataset consists of ~2,300 samples recorded in a various recording conditions. This set can be used for quick evaluation of the performance of existing anti-spoofing models (e.g., models trained on RedDots Replayed dataset) in the realistic settings of the ReMASC dataset.
 
@@ -89,3 +89,8 @@ We performed the data collections in four environments:
 ## Replay Settings
 
 For each replay source recording collected by each source recorder, we replay it multiple times with different playback devices. In indoor environment 2 and the vehicle environment, the position of the playback device is identical to the subject’s position. In the outdoor environment and indoor environment 1, we also replay it in different positions. To keep the data collection effort reasonable, each replay source recording is replayed in 1 to 3 randomly selected replay settings, while the replay settings are normally distributed. All replay recordings and genuine recordings are collected in the same environments with similar volume. Further, for each recording environment, we did our best to make everything in the environment identical for both genuine recordings and replay recordings.
+
+## Release Note
+
+The ReMASC dataset is in its first beta version and might contain errors. Please contact Yuan Gong (ygong1@nd.edu) if you have any question. 
+
