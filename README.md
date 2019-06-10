@@ -13,11 +13,11 @@ Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[
 We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
 
 ## Agreement
-**Remasc dataset is free for academic and commercial use.**
+**Remasc dataset is free for academic and commercial use. You will get a download link once you sign the user agreement.**
 
-**For commercial use, please print the user agreement \[[here](https://drive.google.com/file/d/1XIWijccpKEo8vCh644KB7oCvxSNwovLo/view?usp=sharing)], sign, scan, and email it back to ygong1@nd.edu.**
+For commercial use, please print the user agreement \[[here](https://drive.google.com/file/d/1XIWijccpKEo8vCh644KB7oCvxSNwovLo/view?usp=sharing)], sign, scan, and email it back to ygong1@nd.edu.
 
-**For academic use, you can sign the user agreement \[[here](https://forms.gle/adG2Nx1n1sPFv99y6)] electronically to get access to the data.**
+For academic use, you can sign the user agreement \[[here](https://forms.gle/adG2Nx1n1sPFv99y6)] electronically to get access to the data.
 
 ## Downloads
 **Sample Set** (available, ~10MB)
