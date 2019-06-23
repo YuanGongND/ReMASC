@@ -9,8 +9,8 @@ Computer Science and Engineering, University of Notre Dame, IN 46556, USA
 **Paper**:  
 Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*](https://arxiv.org/abs/1904.03365 "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", arXiv preprint, April 2019.
 
-**Experiments Code**:
-The Matlab code for experiments can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
+**Experiments**:
+The experimental design and corresponding Matlab code can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
 
 **Abstract:**
 We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
