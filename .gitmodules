@@ -1,0 +1,3 @@
+[submodule "ReMASC_Exp"]
+	path = ReMASC_Exp
+	url = https://github.com/jlinear/ReMASC_Exp.git
