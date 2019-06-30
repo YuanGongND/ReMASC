@@ -33,7 +33,7 @@ A small-scale but representative dataset consists of ~2,300 samples recorded in 
 
 **Core Set** (available, 21.7GB)
 
-A large-scale dataset (~30,000 samples) covering all recording conditions. This set allows you to build, validate, and evaluate the defense model as well as analyze the impact of factors such as the type of playback device and microphone. This set is disjoint with the Quick Evaluation Set.
+A large-scale dataset (~27,000 samples) covering all recording conditions. This set allows you to build, validate, and evaluate the defense model as well as analyze the impact of factors such as the type of playback device and microphone. This set is disjoint with the Quick Evaluation Set.
 
 **Extended Evaluation Set** (available in future)
 
