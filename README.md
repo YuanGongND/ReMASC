@@ -7,7 +7,7 @@ Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer
 Computer Science and Engineering, University of Notre Dame, IN 46556, USA
 
 **Paper**:  
-Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*](https://arxiv.org/abs/1904.03365 "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", arXiv preprint, April 2019.
+Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*](https://arxiv.org/abs/1904.03365 "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", arXiv preprint, April 2019 (to appear in Interspeech 2019).
 
 **Experiments**:
 The experimental design and corresponding Matlab code can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
