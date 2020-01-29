@@ -25,7 +25,7 @@ For academic use, you can sign the user agreement \[[here](https://forms.gle/adG
 ## Downloads
 **Sample Set** (available, ~10MB)
 
-A mini set consists of 16 samples for initial evaluation. You can download it **\[[here](https://drive.google.com/a/nd.edu/file/d/1uxqtYsVB-Nw49ywy9ks5UvN_pHAtrVmV/view?usp=sharing)]** without signing the agreement form.
+A mini set consists of 16 samples for initial evaluation. You can download it **\[[here](https://drive.google.com/open?id=1RYHaaHnwuTb7Mx-jlVynQBaIJ-qQ80my)]** without signing the agreement form.
 
 **Quick Evaluation Set** (available, 1.8GB)
 
