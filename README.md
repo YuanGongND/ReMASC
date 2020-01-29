@@ -31,8 +31,8 @@ A mini set consists of 16 samples for initial evaluation. You can download it **
 
 A small-scale but representative dataset consists of ~2,300 samples recorded in a various recording conditions. This set can be used for quick evaluation of the performance of existing anti-spoofing models (e.g., models trained on RedDots Replayed dataset) in the realistic settings of the ReMASC dataset.
 
-# We fixed one bug of the original core set and provide the v2 version now. Please see issue for the detail.
 **Core Set** (available, 21.7GB)
+-We fixed one bug of the original core set and provide the v2 version now. Please see issue for the detail.
 
 A large-scale dataset (~27,000 samples) covering all recording conditions. This set allows you to build, validate, and evaluate the defense model as well as analyze the impact of factors such as the type of playback device and microphone. This set is disjoint with the Quick Evaluation Set.
 
