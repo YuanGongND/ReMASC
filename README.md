@@ -1,19 +1,7 @@
+
 # ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems
 
 We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
-
-## Cite Us:  
-If you use the data, please cite the following paper:
-
-Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, ["ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems"](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html), Interspeech 2019.
-
-If you use our neural network example, please cite the following paper:
-
-Yuan Gong, Jian Yang, Christian Poellabauer, ["Detecting Replay Attacks Using Multi-Channel Audio: A Neural Network-Based Method"](https://arxiv.org/abs/2003.08225)  IEEE Signal Processing Letters, 2020.
-
-## Examples:
-- The Python neural network baseline, PyTorch implementation, and the dataloader can be found in the example directory.
-- The MATLAB CQCC-GMM baseline can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
 
 ## Updates
 June, 30, 2020:
@@ -36,6 +24,22 @@ The complete set consists of two disjoint set:
 - **Evaluation Set**: the suggest evaluation set. 
 
 We also include an unsplited complete set in the .zip package in case you want to customerize the data split. It is just a simple union of the core set and the evaluation set. 
+
+
+## Cite Us:  
+If you use the data, please cite the following paper:
+
+Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, ["ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems"](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html), Interspeech 2019.
+
+If you use our neural network example, please cite the following paper:
+
+Yuan Gong, Jian Yang, Christian Poellabauer, ["Detecting Replay Attacks Using Multi-Channel Audio: A Neural Network-Based Method"](https://arxiv.org/abs/2003.08225)  IEEE Signal Processing Letters, 2020.
+
+## Examples:
+- The Python neural network baseline, PyTorch implementation, and the dataloader can be found in the example directory.
+- The MATLAB CQCC-GMM baseline can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
+
+
 
 ## Definitions and Data Collection Strategy
 
