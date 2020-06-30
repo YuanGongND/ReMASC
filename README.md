@@ -1,3 +1,4 @@
+
 # ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems
 
 **Authors**:  
@@ -6,41 +7,41 @@ Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer
 
 Computer Science and Engineering, University of Notre Dame, IN 46556, USA
 
-**Paper**:  
-Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*](https://arxiv.org/abs/1904.03365 "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", arXiv preprint, April 2019 (to appear in Interspeech 2019).
+**Cite Us**:  
+- If you use the data, please cite the following paper:
+Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*]((https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html) "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", Interspeech 2019.
+
+- If you use our neural network example, please cite the following paper:
+Yuan Gong, Jian Yang, Christian Poellabauer, ["Detecting Replay Attacks Using Multi-Channel Audio: A Neural Network-Based Method"](https://arxiv.org/abs/2003.08225)  IEEE Signal Processing Letters, 2020.
 
 **Experiments**:
-The experimental design and corresponding Matlab code can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
+- The neural network baseline, PyTorch implementation, and sample dataloader can be found in the example directory.
+- The MATLAB CQCC-GMM baseline can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
 
 **Abstract:**
 We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
 
-## Agreement
-**Remasc dataset is free for academic and commercial use. You will get a download link once you sign the user agreement.**
-
-For commercial use, please print the user agreement \[[here](https://drive.google.com/file/d/1XIWijccpKEo8vCh644KB7oCvxSNwovLo/view?usp=sharing)], sign, scan, and email it back to ygong1@nd.edu.
-
-For academic use, you can sign the user agreement \[[here](https://forms.gle/adG2Nx1n1sPFv99y6)] electronically to get access to the data.
+## Updates
+June, 30, 2020:
+- We now release the complete set.
+- We now host the data on **\[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**, which offers a high-speed download (you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free).
+- The ReMASC corpus remains **free for academic and commercial use**, and we no longer require a verification process, you can download the data immediately. Nevertheless, it is highly recommended to sign up to our mailing list to get the latest news about the dataset.
 
 ## Downloads
-**Sample Set** (available, ~10MB)
+**Sample Set** (~10MB)
 
-A mini set consists of 16 samples for initial evaluation. You can download it **\[[here](https://drive.google.com/open?id=1RYHaaHnwuTb7Mx-jlVynQBaIJ-qQ80my)]** without signing the agreement form.
+A mini set consists of 16 samples for initial evaluation. You can download it **\[[here](https://drive.google.com/open?id=1RYHaaHnwuTb7Mx-jlVynQBaIJ-qQ80my)]**.
 
-**Quick Evaluation Set** (available, 1.8GB)
+**Complete Set**
 
-A small-scale but representative dataset consists of ~2,300 samples recorded in a various recording conditions. This set can be used for quick evaluation of the performance of existing anti-spoofing models (e.g., models trained on RedDots Replayed dataset) in the realistic settings of the ReMASC dataset.
+All data we've collected and processed. Please download it from **\[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**,  you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free.
 
-**Core Set** (available, 21.7GB)
--We fixed one bug of the original core set and provide the v2 version now. Please see issue for the detail.
+The complete set consists of two disjoint set:
 
-A large-scale dataset (~27,000 samples) covering all recording conditions. This set allows you to build, validate, and evaluate the defense model as well as analyze the impact of factors such as the type of playback device and microphone. This set is disjoint with the Quick Evaluation Set.
+- **Core Set**: the suggest training and development set.
+- **Evaluation Set**: the suggest evaluation set. 
 
-**Extended Evaluation Set** (available in future)
-
-We reserve the rest of the data as an additional evaluation set for future defense model comparison. This set will be released in the future.
-
-
+We also include an unsplited complete set in the .zip package in case you want to customerize the data split. It is just a simple union of the core set and the evaluation set. 
 
 ## Definitions and Data Collection Strategy
 
@@ -98,7 +99,6 @@ We performed the data collections in four environments:
 
 For each replay source recording collected by each source recorder, we replay it multiple times with different playback devices. In indoor environment 2 and the vehicle environment, the position of the playback device is identical to the subject’s position. In the outdoor environment and indoor environment 1, we also replay it in different positions. To keep the data collection effort reasonable, each replay source recording is replayed in 1 to 3 randomly selected replay settings, while the replay settings are normally distributed. All replay recordings and genuine recordings are collected in the same environments with similar volume. Further, for each recording environment, we did our best to make everything in the environment identical for both genuine recordings and replay recordings.
 
-## Release Note
+## Questions
 
-The ReMASC dataset is in its first beta version and might contain errors. Please contact Yuan Gong (ygong1@nd.edu) if you have any question. 
-
+If you have a question on how to use the dataset, you can rasie an issue in this Github reporsity. You can also contact Yuan Gong (ygong1@nd.edu).
