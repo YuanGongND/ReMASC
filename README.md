@@ -1,31 +1,25 @@
+
 # ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems
 
-**Authors**:  
+We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
 
-Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer
-
-Computer Science and Engineering, University of Notre Dame, IN 46556, USA
-
-**Cite Us**:  
-- If you use the data, please cite the following paper:
+## Cite Us:  
+If you use the data, please cite the following paper:
 
 Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, ["ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems"](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html), Interspeech 2019.
 
-- If you use our neural network example, please cite the following paper:
+If you use our neural network example, please cite the following paper:
 
 Yuan Gong, Jian Yang, Christian Poellabauer, ["Detecting Replay Attacks Using Multi-Channel Audio: A Neural Network-Based Method"](https://arxiv.org/abs/2003.08225)  IEEE Signal Processing Letters, 2020.
 
-**Usage Example**:
+## Examples:
 - The Python neural network baseline, PyTorch implementation, and the dataloader can be found in the example directory.
 - The MATLAB CQCC-GMM baseline can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
-
-**Abstract:**
-We introduce a new database of voice recordings with the goal of supporting research on vulnerabilities and protection of voice-controlled systems. In contrast to prior efforts, the proposed database contains genuine and replayed recordings of voice commands obtained in realistic usage scenarios and using state-of-the-art voice assistant development kits. Specifically, the database contains recordings from four systems (each with a different microphone array) in a variety of environmental conditions with different forms of background noise and relative positions between speaker and device. To the best of our knowledge, this is the first database that has been specifically designed for the protection of voice controlled systems (**VCS**) against various forms of replay attacks.
 
 ## Updates
 June, 30, 2020:
 - We now release the complete set.
-- We now host the data on **\[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**, which offers a high-speed download (you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free).
+- We now host the data on **[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**, which offers a high-speed download (you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free).
 - The ReMASC corpus remains **free for academic and commercial use**, and we no longer require a verification process, you can download the data immediately. Nevertheless, it is highly recommended to sign up to our mailing list to get the latest news about the dataset.
 
 ## Downloads
@@ -35,7 +29,7 @@ A mini set consists of 16 samples for initial evaluation. You can download it **
 
 **Complete Set**
 
-All data we've collected and processed. Please download it from **\[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**,  you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free.
+All data we've collected and processed. Please download it from **[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**,  you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free.
 
 The complete set consists of two disjoint set:
 
