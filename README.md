@@ -9,13 +9,15 @@ Computer Science and Engineering, University of Notre Dame, IN 46556, USA
 
 **Cite Us**:  
 - If you use the data, please cite the following paper:
+
 Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*]((https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html) "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", Interspeech 2019.
 
 - If you use our neural network example, please cite the following paper:
+
 Yuan Gong, Jian Yang, Christian Poellabauer, ["Detecting Replay Attacks Using Multi-Channel Audio: A Neural Network-Based Method"](https://arxiv.org/abs/2003.08225)  IEEE Signal Processing Letters, 2020.
 
-**Experiments**:
-- The neural network baseline, PyTorch implementation, and sample dataloader can be found in the example directory.
+**Usage Example**:
+- The Python neural network baseline, PyTorch implementation, and the dataloader can be found in the example directory.
 - The MATLAB CQCC-GMM baseline can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
 
 **Abstract:**
