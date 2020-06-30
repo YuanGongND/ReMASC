@@ -59,7 +59,7 @@ As shown in Figure 2, in our data collection, we ask the subject to hold the sou
 A total of 132 voice commands are used as the recording text material. Among them, 31 commands are security sensitive and 49 commands are used in the vehicle. The command list contains 273 unique words, which provides reasonable phonetic diversity. Further, we recruited 50 subjects (22 female and 28 male), where 36 subjects are English native speakers, 12 subjects are Chinese native speakers, and the remaining 2 subjects are Indian native speakers. The subjects’ ages range from 18 to 36. Three subjects participated more than once, leading to a total of 55 data sets (i.e., 47 subjects with one set of recordings and 3 with several sets of recordings).
 
 ## Microphone Array Based Recorder
-![enter image description here](photo/device1.png)
+![enter image description here](photo/device1.png =250X)
 
 **Figure 3**. Microphone arrays used in the data collection (microphones are shown with the rectangles and a white arrow indicates the direction of the microphone array during data collection).
 
