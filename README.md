@@ -1,4 +1,3 @@
-
 # ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems
 
 **Authors**:  
@@ -10,7 +9,7 @@ Computer Science and Engineering, University of Notre Dame, IN 46556, USA
 **Cite Us**:  
 - If you use the data, please cite the following paper:
 
-Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, "[*ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems*]((https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html) "ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems")", Interspeech 2019.
+Yuan Gong, Jian Yang, Jacob Huber, Mitchell MacKnight, Christian Poellabauer, ["ReMASC: Realistic Replay Attack Corpus for Voice Controlled Systems"](https://www.isca-speech.org/archive/Interspeech_2019/abstracts/1541.html), Interspeech 2019.
 
 - If you use our neural network example, please cite the following paper:
 
