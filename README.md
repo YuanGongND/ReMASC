@@ -64,7 +64,12 @@ A total of 132 voice commands are used as the recording text material. Among the
 
 **Figure 3**. Microphone arrays used in the data collection (microphones are shown with the rectangles and a white arrow indicates the direction of the microphone array during data collection).
 
-![enter image description here](https://yuangongorg.files.wordpress.com/2018/11/table12.png?w=400)
+|       Device       | Sample Rate | Bit Depth | Channel Number |
+|:------------------:|:-----------:|:---------:|:--------------:|
+|    Amlogic 113X1   |    16000    |     16    |        7       |
+| Respeaker 4-Linear |    44100    |     16    |        4       |
+|    Respeaker V2    |    44100    |     32    |        6       |
+|     Google AIY     |    44100    |     16    |        2       |
 
 **Table 1**. Microphone array settings.
 
