@@ -35,7 +35,7 @@ If you use our neural network example, please cite the following paper:
 Yuan Gong, Jian Yang, Christian Poellabauer, ["Detecting Replay Attacks Using Multi-Channel Audio: A Neural Network-Based Method"](https://arxiv.org/abs/2003.08225)  IEEE Signal Processing Letters, 2020.
 
 ## Examples:
-- The Python neural network baseline, PyTorch implementation, and the dataloader can be found in the example directory.
+- The Python neural network baseline, PyTorch implementation, and the dataloader can be found \[[here](https://github.com/YuanGongND/multichannel-antispoof)].
 - The MATLAB CQCC-GMM baseline can be found \[[here](https://github.com/jlinear/ReMASC_Exp)].
 
 
