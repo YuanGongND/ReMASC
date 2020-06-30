@@ -59,7 +59,7 @@ As shown in Figure 2, in our data collection, we ask the subject to hold the sou
 A total of 132 voice commands are used as the recording text material. Among them, 31 commands are security sensitive and 49 commands are used in the vehicle. The command list contains 273 unique words, which provides reasonable phonetic diversity. Further, we recruited 50 subjects (22 female and 28 male), where 36 subjects are English native speakers, 12 subjects are Chinese native speakers, and the remaining 2 subjects are Indian native speakers. The subjects’ ages range from 18 to 36. Three subjects participated more than once, leading to a total of 55 data sets (i.e., 47 subjects with one set of recordings and 3 with several sets of recordings).
 
 ## Microphone Array Based Recorder
-<img src="photo/microphone_array.png" width="400" />
+<img src="photo/mcirophone_array.png" width="400" />
 <img src="photo/device1.png" width="400" />
 
 **Figure 3**. Microphone arrays used in the data collection (microphones are shown with the rectangles and a white arrow indicates the direction of the microphone array during data collection).
@@ -78,7 +78,7 @@ Due to privacy concerns, off-the-shelf VCS products such as Amazon Echo or Googl
 To study if the source recorder affects the replay attack detection, we use a low-cost recorder, i.e., an iPod Touch (Gen5), and a professional recorder, i.e., a Tascam DR-05, together as the source recorder. As shown in Figure 4, we tape the two recorders together and ask the subject to hold it at a close distance when they speak into the VCS (microphone array). The captured recording is then used as the replay source recording. Although the Tascam DR-05 is a professional high fidelity device, channel and background noise are still inevitable. Therefore, we also use Google Text-to-speech (TTS) to synthesize the voice commands as additional replay source recordings, which can then be considered as completely channel and background noise free. For diversity considerations, we use 26 different voice settings (13 male and 13 female) with two different synthesis technologies (standard and WaveNet) and three dialect settings (Australia, UK, and U.S.). As shown in Figure 4, we use four common representative playback devices: A) Sony SRSX5, B) Sony SRSX11, C) Audio Technica ATH-AD700X headphone, and D) iPod Touch. Further, in the vehicle environment, we use the vehicular audio system as an additional playback device.
 
 ## Recording Environment
-<img src="photo/position.png" width="600" />
+<img src="photo/position.jpg" width="600" />
 
 **Figure 5**. Illustration of device and speaker position settings. In indoor environment 1, each hollow symbol represents a microphone array placement and the direction it faces is indicated by an arrow. The corresponding solid symbols of the same shape represent a speaker position (for a total of 18 device placement - speaker position combinations, can be generalized to more combinations since array is symmetric). In indoor environment 2, the hollow circle represents the microphone array, the square represents the speaker playing the background sound, and the solid circle represents the speaker. 
 
