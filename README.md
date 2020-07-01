@@ -6,7 +6,7 @@ We introduce a new database of voice recordings with the goal of supporting rese
 June, 30, 2020:
 - We now release the complete set.
 - We now host the data on **[IEEE DataPort](https://ieee-dataport.org/open-access/remasc-realistic-replay-attack-corpus-voice-controlled-systems)**, which offers a high-speed download (you will need an [IEEE account](https://ieee-dataport.org/faq/how-do-i-access-dataset-ieee-dataport) to download, which is also free).
-- The ReMASC corpus remains **free for academic and commercial use**, and we no longer require a verification process, you can download the data immediately. Nevertheless, it is highly recommended to sign up to our mailing list to get the latest news about the dataset.
+- The ReMASC corpus remains **free for academic and commercial use**, and we no longer require a verification process, you can download the data immediately. Nevertheless, it is highly recommended to sign up to our **[mailing list](https://forms.gle/CAQeo9JsuoD4d1AS9)** to get the latest news about the dataset.
 
 ## Downloads
 **Sample Set** (~10MB)
